@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif, "Roboto Slab";
+}
+.f-family {
+  font-family: "Syne", sans-serif;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+} */
+
+.parallax {
+  background-image: url("https://images.pexels.com/photos/2835436/pexels-photo-2835436.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translate3d(0, 0, 0);
+  will-change: transform;
+}
+
+* {
+  cursor: none; /* Hides the default cursor */
+}
+button {
+  cursor: none !important;
+}
